@@ -13,33 +13,35 @@
 /* The Header -- */
 
 header div {
-  margin-top: 230px;
-  text-align: center;
+  margin: 0 auto;
+}
+
+header div h2 {
+  color: white;
 }
 
 header div h1 {
   color: white;
 }
 
-
 header{
   background-image: url(../images/nakamabackgroundimage.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 600px;
+  min-height: 600px;
   margin: 0;
   padding: 0;
 
 }
 
 header nav {
-  float: right;
   position: relative;
 }
 
 header nav ul {
+  float: right;
   text-decoration: none;
 }
 
@@ -61,6 +63,50 @@ header nav ul li a:hover{
   transition: all 1s;
 }
 
+header nav div {
+ float: left;
+ background-color: black;
+ color: white;
+ font-size: 2vh;
+ 
+}
+
+header nav div p i {
+  padding: 5px;
+  float: left;
+  padding-left: 2px;
+  font-size: 1.25vh;
+}
+
+header nav div p {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 4px;
+  padding-left: 0;
+}
+
+
+header nav div p span {
+  float: left;
+}
+
+
+header nav div p img {
+  height: 40px;
+  width: 50px;
+  margin-left: 5px;
+  float: right;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+
+header nav input {
+  float: left;
+  font-size: 2vh;
+  margin-left:50px;
+}
 
 
 /* -- The header */
